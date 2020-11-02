@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - LP: B Matsu V.18</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"> </script>
+  <title>Bodega Matsu Wines</title>
+  <link rel="stylesheet" href="bmatsu_v2.css">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header id="header">
+    <div>
+      <img id="header-img" src="http://www.kedingtonwines.com/wp-content/uploads/2015/11/MATSU_LOGO-e1509966918146.jpg" alt="Bodega Matsu logo">
+    </div>
+
+    <nav id="nav-bar">
+      <ul class="menu_items">
+        <li><a class="nav-link" href="#shop">Shop</a></li>
+        <li><a class="nav-link" href="#history">History</a></li>
+        <li><a class="nav-link" href="#video_size">Video</a></li>
+        <li><a class="nav-link" href="#footer">Contact</a></li>
+        <li><a class="nav-link" href="#about">About</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- ---------------------------------main content--------------------------------- -->
+
+    <!------------------------------------Subscribe Email------------------------------------>
+  </header>
+  <main>
+
+    <form id="form" action="https://www.freecodecamp.com/email-submit/">
+      <label id="sign-up">Sign up to Matsu Bodega:
+        <input id="email" name="email" type="email" placeholder="Enter your email address" />
+      </label>
+      <input id="submit" type="submit" />
+    </form>
+
+    <!-------------------------------------------Webite title------------------------------------------->
+    <div>
+      <h1>Handcrafted wines made with care, passion and experience</h1>
+    </div>
+
+    <!------------------------------------------Promotional Video------------------------------------------>
+
+    <div id="video_size">
+      <div style="padding:56.25% 0 0 0;position:relative;"><iframe id="video" src="https://player.vimeo.com/video/42205154" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+      </div>
+      <script src="https://player.vimeo.com/api/player.js"></script>
+    </div>
+
+    <!--Bodega Matsu information-->
+
+    <div class="matsu_information_txt">
+      <p id="history"><strong>Matsu</strong></p>
+      <p>Matsu is more than just an ordinary winery or wine, it is a contemporary project of sustainable viticulture that brings together an exclusive collection of high expression wines.</p>
+      <p>Matsu means 'to wait' in Japanese and provides the perfect definition of an initiative that combines the Oriental culture's concern for what is natural with the most advanced techniques
+        in biodynamic agriculture employed in European farming. All their wines are organic; the vines are grown in a completely natural way, avoiding any chemical or synthetic herbicides, insecticides
+        and fungicides. Matsu represnts the essence of organic wine, and a 'wait' is included during the production cycle which allows it to finally reach its ideal balance.</p>
+    </div>
+
+    <!-- Wine products title -->
+    <div id="h2_positioning">
+      <h2>The Matsu Bodega collection: El Picaro, El Recio and El Viejo</h2>
+    </div>
+
+    <!--Wine products 1-->
+    <div class="purchase_boxes">
+      <img src="https://d1rknyb5tfws60.cloudfront.net/images/merchandising/content/wines/matsu-el-picaro-14010/mediumCutout.jpg" alt="picture-of-el-picaro" class="matsu_wine_bottles">
+      <div>
+        <div class="purchase_boxes_text">
+
+          <p id="shop" style="font-size:180%;"><strong>Matsu El "El Picaro" 2018/19 Toro</strong></p>
+          <p>Picaro means 'rogue' or 'rascal', and this rapscallion of a wine is a youthful interpretation
+            of the Toro region's style. The grapes come from mature vines of over 50 years of age, but the wine spends only three months in oak, preserving their natural fruit profile. Vivid crimson-purple in the glass. Aromas are of ripe blackberries and raspberries, with subtle hints of fresh cocoa. The palate is bold yet supple, with ripe tannins and a mineral grip. Enjoy on its own or with boldly flavoured pasta dishes or spicy meat skewers.</p>
+        </div>
+
+        <div id="table_container_1">
+          <table>
+            <tr>
+              <td>TYPE</td>
+              <td>Red</td>
+            </tr>
+            <tr>
+              <td>STYLE</td>
+              <td>Big Red</td>
+            </tr>
+            <tr>
+              <td>CLOSURE</td>
+              <td>Natural Cork</td>
+            </tr>
+            <tr>
+              <td>ABV</td>
+              <td>14.5%</td>
+            </tr>
+            <tr>
+              <td>UNITS</td>
+              <td>10.9</td>
+            </tr>
+            <tr>
+              <td>COUNTRY</td>
+              <td>Spain</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+
+      <div class="purchase_wine_container">
+        <form class="wine_purchase_form">
+          <br>
+          <label for="order">Purchase wine:</label>
+          <p>£9.99</p>
+          <select name="order" class="order">
+            <option value="v1">1 bottle</option>
+            <option value="v2">2 bottles</option>
+            <option value="v3">3 bottles</option>
+            <option value="v4">4 bottles</option>
+            <option value="v5">5 bottles</option>
+            <option value="v6">6 bottles</option>
+            <option value="v7">7 bottles</option>
+            <option value="v8">8 bottles</option>
+            <option value="v9">9 bottles</option>
+            <option value="10">10 bottles</option>
+            <option value="11">11 bottles</option>
+            <option value="12">12 bottles</option>
+          </select>
+          <br><br>
+          <input type="submit" value="Buy " class="button">
+        </form>
+      </div>
+
+    </div>
+
+    <!--Wine products 2-->
+    <div class="purchase_boxes">
+      <img src="https://d1rknyb5tfws60.cloudfront.net/images/merchandising/content/wines/matsu-el-recio-14011/mediumCutout.jpg" alt="picture-of-el-recio" class="matsu_wine_bottles">
+      <div>
+        <div class="purchase_boxes_text">
+          <p style="font-size:180%;"><strong>Matsu El Recio 2018 Toro</strong></p>
+          <p>El Recio translates as 'the tough guy', and is a more serious, mature wine, made from the product of some of Toro's oldest vines, which are cultivated using advanced biodynamic techniques. 14 months in new French oak provide opulence and polish. Intense and opaque, this wine is a mass of deep black fruit, chocolate, roasted coffee bean and vanilla pod aromas. Voluptuous and weighty, with a firm structure, held together by silky tannins. A great steak wine, which longs to be paired with rare asado-style beef
+            fillet or sirloin. Drink now or keep for 2-5 years.</p>
+        </div>
+        <div id="table_container_2">
+          <table>
+            <tr>
+              <td>TYPE</td>
+              <td>Red</td>
+            </tr>
+            <tr>
+              <td>STYLE</td>
+              <td>Big Red</td>
+            </tr>
+            <tr>
+              <td>CLOSURE</td>
+              <td>Natural Cork</td>
+            </tr>
+            <tr>
+              <td>ABV</td>
+              <td>14.5%</td>
+            </tr>
+            <tr>
+              <td>UNITS</td>
+              <td>10.9</td>
+            </tr>
+            <tr>
+              <td>COUNTRY</td>
+              <td>Spain</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+
+      <div class="purchase_wine_container">
+        <form class="wine_purchase_form">
+          <br>
+          <label for="order">Purchase wine:</label>
+          <p>£14.99</p>
+          <select name="order" class="order">
+            <option value="v1">1 bottle</option>
+            <option value="v2">2 bottles</option>
+            <option value="v3">3 bottles</option>
+            <option value="v4">4 bottles</option>
+            <option value="v5">5 bottles</option>
+            <option value="v6">6 bottles</option>
+            <option value="v7">7 bottles</option>
+            <option value="v8">8 bottles</option>
+            <option value="v9">9 bottles</option>
+            <option value="10">10 bottles</option>
+            <option value="11">11 bottles</option>
+            <option value="12">12 bottles</option>
+          </select>
+          <br><br>
+          <input type="submit" value="Buy " class="button">
+        </form>
+      </div>
+    </div>
+
+    <!--Wine products 3 -->
+    <div class="purchase_boxes">
+      <img src="https://dwf7gksd9rjsq.cloudfront.net/media/catalog/product/cache/4fadb433660890ff2bcc5ffe599375aa/e/l/el_viejo.jpg" alt="picture-of-matsu-el-viejo" class="matsu_wine_bottles">
+
+      <div>
+        <div class="purchase_boxes_text">
+          <p style="font-size:180%;"><strong>Matsu El Viejo 2017 Toro</strong></p>
+          <p>'The Old One' of the Matsu range, made from the fruit of selected Tinta de Toro vines, averaging 110 years of age. Matsu is the Japanese word for 'wait',
+            and the winery's philosophy is one of patience and environmental harmony. The vineyards are fully organic. The wine is immensely powerful and complex, offering
+            cigar box, lavender and graphite nuances against a backdrop of dense cherry and bramble fruit. Enjoyable immediately, partnered with good quality steak or rare roasts, but will also reward cellaring of 5 years or more.</p>
+        </div>
+
+        <div id="table_container_3">
+          <table>
+            <tr>
+              <td>TYPE</td>
+              <td>Red</td>
+            </tr>
+            <tr>
+              <td>STYLE</td>
+              <td>Big Red</td>
+            </tr>
+            <tr>
+              <td>CLOSURE</td>
+              <td>Natural Cork</td>
+            </tr>
+            <tr>
+              <td>ABV</td>
+              <td>14.5%</td>
+            </tr>
+            <tr>
+              <td>UNITS</td>
+              <td>10.9</td>
+            </tr>
+            <tr>
+              <td>COUNTRY</td>
+              <td>Spain</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+
+      <div class="purchase_wine_container">
+        <form class="wine_purchase_form">
+          <br>
+          <label for="order">Purchase wine:</label>
+          <p>£23.99</p>
+          <select name="order" class="order">
+            <option value="v1">1 bottle</option>
+            <option value="v2">2 bottles</option>
+            <option value="v3">3 bottles</option>
+            <option value="v4">4 bottles</option>
+            <option value="v5">5 bottles</option>
+            <option value="v6">6 bottles</option>
+            <option value="v7">7 bottles</option>
+            <option value="v8">8 bottles</option>
+            <option value="v9">9 bottles</option>
+            <option value="10">10 bottles</option>
+            <option value="11">11 bottles</option>
+            <option value="12">12 bottles</option>
+          </select>
+          <br><br>
+          <input type="submit" value="Buy " class="button">
+        </form>
+      </div>
+    </div>
+
+  </main>
+
+  <!--Sitemap and Social nedia links-->
+
+  <footer id="footer">
+    <nav>
+      <ul>
+        <li><a href="https://en-gb.facebook.com/bodegamatsu/" target="_blank">Social Media</a></li>
+        <li><a href="https://vintae.com/en/the-collection-of-matsu-wines-suitable-for-vegans/" target="_blank">Vegan certification</a></li>
+        <li><a href="https://vintae.com/en/contact/" target="_blank">Contact</a></li>
+        <li><a id="about" href="https://vintae.com/en/winery/matsu/" target="_blank">About</a>
+      </ul>
+    </nav>
+    <h3>&copy Bodega Matsu is a member of the Vintae Wine family 2020</h3>
+  </footer>
+</body>
+
+</html>
+<!-- partial -->
+  
+</body>
+</html>

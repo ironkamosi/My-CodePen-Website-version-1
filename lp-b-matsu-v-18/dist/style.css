@@ -1,0 +1,289 @@
+body {
+  font-size: 16px;
+  padding: 0em;
+  margin: 0em;
+  background-color: #c5e1a5;
+}
+
+main {
+  margin-top: 11.2em;
+}
+
+/* ------------------------media quiery------------------------ */
+
+@media screen and(min-width:500px) {
+}
+
+/* ----------------------------header---------------------------- */
+#header {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: grey;
+  z-index: 1;
+  padding-bottom: 0em;
+}
+
+#header-img {
+  padding: 1em;
+}
+
+#nav-bar {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 3em;
+}
+
+.nav-link a {
+  color: black;
+}
+
+.menu_items {
+  font-size: 1.5em;
+  display: flex;
+  list-style: none;
+  background-color: white;
+  justify-content: flex-end;
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+}
+
+.menu_items a {
+  display: block;
+}
+
+li {
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1em;
+  padding-top: 0em;
+  padding-bottom: 0em;
+}
+
+/* ---------------Email subscription--------------- */
+#form {
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  font-size: 1.5em;
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+  background-color: khaki;
+  width: %;
+  margin-top: 10em;
+}
+
+#sign-up {
+  margin-left: 17em;
+}
+
+#email {
+  width: 300px;
+  font-size: 1em;
+}
+
+/* --------h1----------- */
+h1 {
+  font-family: "Nunito", sans-serif;
+  font-weight: 900;
+  font-size: 3em;
+  margin: 0 auto;
+  padding-left: 1.1em;
+  color: #695216;
+  padding-top: 0.3em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+}
+
+/*-------------- video------------------ */
+#video_size {
+  width: 50%;
+  margin: 0 auto;
+  padding: 10em;
+}
+
+#video {
+  margin: 0 auto;
+  width: 70%;
+}
+/* ---------------------------Wine page description--------------------------- */
+.matsu_information_txt {
+  margin-top: 30em;
+  font-size: 30px;
+  width: 60%;
+  margin: 0 auto;
+  padding-top: 5px;
+  padding-bottom: 150px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+}
+
+/* --------h2----------- */
+
+h2 {
+  font-family: "Nunito", sans-serif;
+  font-weight: 900;
+  font-size: 2em;
+  margin: 0 auto;
+  padding-left: 4em;
+  padding-right: 5em;
+  color: #695216;
+  width: 70%;
+}
+
+#h2_positioning {
+  margin-top: 5em;
+}
+
+/*-------------------wine table ingredients-------------------*/
+
+table,
+th,
+td {
+  border: 2px solid #000000;
+  border-collapse: collapse;
+  text-align: center;
+  table-layout: fixed;
+  background-color: orange;
+  padding: 1.6em;
+}
+
+td {
+  font-size: 1em;
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+}
+
+#table_container_1 {
+  padding-left: 2em;
+  margin: 0 auto;
+}
+
+#table_container_2 {
+  padding-left: 2em;
+  margin: 0 auto;
+}
+
+#table_container_3 {
+  padding-left: 2em;
+  margin: 0 auto;
+}
+/*--------- Wine product section-------------*/
+
+.purchase_boxes {
+  width: 900px;
+  padding: 2em;
+  padding-top: 5em;
+  padding-bottom: 5em auto;
+  background-color: seashell;
+  margin: 5em auto;
+  display: flex;
+  align-items: flex-start;
+}
+
+.purchase_boxes_text {
+  padding: 2em;
+}
+
+.purchase_boxes p {
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  font-size: 1.4em;
+}
+
+.button {
+  width: 30%;
+  height: 30px;
+  background-color: greenyellow;
+}
+
+/*------------------Wine product section----------------------*/
+.purchase_wine_container {
+  margin: 5em;
+}
+.wine_purchase_form {
+  padding-bottom: 1.5em;
+  font-size: 1.5em;
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+  padding: 1em;
+  background-color: khaki;
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 2em;
+  border: solid;
+}
+
+.wine_container {
+  display: flex;
+}
+
+.wine_information {
+  text-align: justify;
+  text-justify: inter-word;
+  display: flex;
+  margin: 2em;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 80%;
+  margin: 0 auto;
+}
+/* ---------------------------The footer--------------------------- */
+#footer {
+  background-color: grey;
+  height: 150px;
+  padding-top: 1em;
+  margin-bottom: 0em;
+  position: absoulute;
+  bottom: 0;
+  clear: both;
+  max-width: 100%;
+}
+
+#footer ul {
+  display: flex;
+  justify-content: center;
+}
+
+#footer li {
+  margin: 1.2em;
+}
+
+#footer h3 {
+  font-size: 1.5em;
+  font-weight: 600;
+  text-align: center;
+  background-color: orange;
+  padding-bottom: 0;
+  margin: 0;
+}
+
+h3 {
+  font-family: "Nunito", sans-serif;
+  font-weight: 900;
+  font-size: 3em;
+  word-spacing: 5px;
+  padding-top: 0.7em;
+  padding-bottom: 0.7em;
+  color: black;
+}
+
+#footer a {
+  font-size: 1.5em;
+  color: white;
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+}
